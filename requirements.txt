@@ -4,5 +4,8 @@ pandas
 numpy
 scikit-learn
 streamlit
-google-cloud-aiplatform # For Vertex AI functionalities (includes vertexai, google.cloud.aiplatform)
-google-auth           # Explicitly needed for authentication handling shown in TestCredencialsGoogle.py
+matplotlib # Adicionado para os gráficos em genai.py
+google-cloud-aiplatform # Para Vertex AI (vertexai, google.cloud.aiplatform) e PredictionServiceClient
+google-auth           # Usado explicitamente em TestCredencialsGoogle.py e implicitamente para autenticação
+# google-api-python-client # Pode ser necessário dependendo de como a API Gemini é chamada em TestEmbSim.py, mas google-cloud-aiplatform geralmente cobre isso.
+# protobuf # Geralmente instalado como dependência do google-cloud-aiplatform
