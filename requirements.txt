@@ -1,0 +1,8 @@
+# requirements.txt
+
+pandas
+numpy
+scikit-learn
+streamlit
+google-cloud-aiplatform # For Vertex AI functionalities (includes vertexai, google.cloud.aiplatform)
+google-auth           # Explicitly needed for authentication handling shown in TestCredencialsGoogle.py
